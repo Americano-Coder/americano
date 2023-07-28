@@ -1,0 +1,47 @@
+.root {
+  position: relative;
+  width: 203px;
+  height: 72px;
+  align-items: flex-start;
+}
+.inputDefaultRacktangleTrueLarg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 36.1111%;
+  bottom: 0;
+  height: min-content;
+  padding: 15px 10px 15px 15px;
+  outline: solid 1px #82868c;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.textInput {
+  color: #82868c;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.label {
+  color: #3a3c40;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 81.7734%;
+  top: 0;
+  bottom: 77.7778%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
