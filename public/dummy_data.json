@@ -1,0 +1,2212 @@
+[{
+    "Date": "3\/2\/2022 10:11",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Brownie",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "3\/2\/2022 10:11",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To lended people",
+    "Income\/Expense": "Expense",
+    "Amount": 300
+},
+{
+    "Date": "3\/1\/2022 19:50",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 78
+},
+{
+    "Date": "3\/1\/2022 18:56",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Metro",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "3\/1\/2022 18:22",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 67
+},
+{
+    "Date": "3\/1\/2022 18:22",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From vicky",
+    "Income\/Expense": "Income",
+    "Amount": 100
+},
+{
+    "Date": "3\/1\/2022 18:21",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 500
+},
+{
+    "Date": "2\/28\/2022 11:56",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Pizza",
+    "Income\/Expense": "Expense",
+    "Amount": 339.15
+},
+{
+    "Date": "2\/28\/2022 11:45",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From kumara",
+    "Income\/Expense": "Income",
+    "Amount": 200
+},
+{
+    "Date": "2\/27\/2022 15:29",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 243
+},
+{
+    "Date": "2\/26\/2022 20:16",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "2\/26\/2022 17:37",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1500
+},
+{
+    "Date": "2\/26\/2022 17:37",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To karthi",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "2\/26\/2022 16:01",
+    "Account": "CUB - online payment",
+    "Category": "Social Life",
+    "Income\/Expense": "Expense",
+    "Amount": 1700
+},
+{
+    "Date": "2\/26\/2022 14:07",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "2\/26\/2022 1:39",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Tea lights",
+    "Income\/Expense": "Expense",
+    "Amount": 84
+},
+{
+    "Date": "2\/25\/2022 12:08",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Income\/Expense": "Expense",
+    "Amount": 33
+},
+{
+    "Date": "2\/24\/2022 22:32",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Income\/Expense": "Expense",
+    "Amount": 303
+},
+{
+    "Date": "2\/24\/2022 22:21",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Creamstone",
+    "Income\/Expense": "Expense",
+    "Amount": 289
+},
+{
+    "Date": "2\/24\/2022 19:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Tamen",
+    "Income\/Expense": "Expense",
+    "Amount": 324.7
+},
+{
+    "Date": "2\/23\/2022 17:35",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Hoodie for gobi",
+    "Income\/Expense": "Expense",
+    "Amount": 399
+},
+{
+    "Date": "2\/23\/2022 16:06",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Eggs",
+    "Income\/Expense": "Expense",
+    "Amount": 83
+},
+{
+    "Date": "2\/23\/2022 12:38",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Earphone",
+    "Income\/Expense": "Expense",
+    "Amount": 399
+},
+{
+    "Date": "2\/22\/2022 6:33",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Auto to laxmi mills",
+    "Income\/Expense": "Expense",
+    "Amount": 120
+},
+{
+    "Date": "2\/21\/2022 22:15",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "It better be worth it",
+    "Income\/Expense": "Expense",
+    "Amount": 1300
+},
+{
+    "Date": "2\/21\/2022 16:06",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Travel to koyambedu",
+    "Income\/Expense": "Expense",
+    "Amount": 138
+},
+{
+    "Date": "2\/21\/2022 15:40",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Note": "Stuffs",
+    "Income\/Expense": "Expense",
+    "Amount": 336
+},
+{
+    "Date": "2\/21\/2022 15:38",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Train cbe to chn",
+    "Income\/Expense": "Expense",
+    "Amount": 201.8
+},
+{
+    "Date": "2\/20\/2022 15:24",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "2\/19\/2022 23:03",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Random stuff for drinks",
+    "Income\/Expense": "Expense",
+    "Amount": 111
+},
+{
+    "Date": "2\/19\/2022 21:57",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 250
+},
+{
+    "Date": "2\/19\/2022 21:35",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Bus ticket",
+    "Income\/Expense": "Expense",
+    "Amount": 1575
+},
+{
+    "Date": "2\/19\/2022 20:45",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Took from sbi",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "2\/19\/2022 20:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Ramen with gobi",
+    "Income\/Expense": "Expense",
+    "Amount": 380
+},
+{
+    "Date": "2\/19\/2022 8:26",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Metro",
+    "Income\/Expense": "Expense",
+    "Amount": 60
+},
+{
+    "Date": "2\/19\/2022 6:27",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To auto anna",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "2\/19\/2022 6:18",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "To egmore",
+    "Income\/Expense": "Expense",
+    "Amount": 270
+},
+{
+    "Date": "2\/18\/2022 23:01",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Kfc dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 348
+},
+{
+    "Date": "2\/17\/2022 13:11",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "2\/16\/2022 16:57",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Side dishes",
+    "Income\/Expense": "Expense",
+    "Amount": 165
+},
+{
+    "Date": "2\/16\/2022 16:57",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Kfc",
+    "Income\/Expense": "Expense",
+    "Amount": 475
+},
+{
+    "Date": "2\/13\/2022 21:54",
+    "Account": "CUB - online payment",
+    "Category": "Social Life",
+    "Note": "Games",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "2\/12\/2022 21:20",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with aravind and buddies",
+    "Income\/Expense": "Expense",
+    "Amount": 491
+},
+{
+    "Date": "2\/12\/2022 16:04",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Note": "Mirror",
+    "Income\/Expense": "Expense",
+    "Amount": 70
+},
+{
+    "Date": "2\/12\/2022 14:48",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "2\/12\/2022 14:47",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 10000
+},
+{
+    "Date": "2\/11\/2022 22:41",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with aravind",
+    "Income\/Expense": "Expense",
+    "Amount": 373
+},
+{
+    "Date": "2\/10\/2022 20:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Kfc dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 641
+},
+{
+    "Date": "2\/8\/2022 10:37",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "2\/8\/2022 9:18",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Note": "Bean bag",
+    "Income\/Expense": "Expense",
+    "Amount": 2099
+},
+{
+    "Date": "2\/7\/2022 7:08",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Auto to Gobi's place",
+    "Income\/Expense": "Expense",
+    "Amount": 214
+},
+{
+    "Date": "2\/6\/2022 18:32",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Cakepark",
+    "Income\/Expense": "Expense",
+    "Amount": 125
+},
+{
+    "Date": "2\/6\/2022 17:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "To kumara",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "2\/6\/2022 17:52",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "To chennai",
+    "Income\/Expense": "Expense",
+    "Amount": 1000
+},
+{
+    "Date": "2\/6\/2022 16:41",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Salary from dad",
+    "Income\/Expense": "Income",
+    "Amount": 5000
+},
+{
+    "Date": "2\/6\/2022 16:40",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To gobi",
+    "Income\/Expense": "Expense",
+    "Amount": 1500
+},
+{
+    "Date": "2\/4\/2022 20:28",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Shawarma",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "2\/3\/2022 14:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Good soup",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "2\/3\/2022 8:59",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "2\/2\/2022 20:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Parotta",
+    "Income\/Expense": "Expense",
+    "Amount": 120
+},
+{
+    "Date": "2\/2\/2022 20:14",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 500
+},
+{
+    "Date": "1\/31\/2022 8:44",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Vnr to apk",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "1\/31\/2022 8:27",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To vicky",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "1\/31\/2022 8:26",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "To ksr station",
+    "Income\/Expense": "Expense",
+    "Amount": 153
+},
+{
+    "Date": "1\/30\/2022 19:17",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 155
+},
+{
+    "Date": "1\/30\/2022 19:01",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Cycle gap",
+    "Income\/Expense": "Expense",
+    "Amount": 120
+},
+{
+    "Date": "1\/30\/2022 12:28",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Brunch",
+    "Income\/Expense": "Expense",
+    "Amount": 105
+},
+{
+    "Date": "1\/29\/2022 21:56",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido to pg",
+    "Income\/Expense": "Expense",
+    "Amount": 44
+},
+{
+    "Date": "1\/29\/2022 14:44",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Sent to barath",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "1\/28\/2022 21:58",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Banana",
+    "Income\/Expense": "Expense",
+    "Amount": 10
+},
+{
+    "Date": "1\/28\/2022 14:23",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 138
+},
+{
+    "Date": "1\/27\/2022 21:25",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido to pg",
+    "Income\/Expense": "Expense",
+    "Amount": 43
+},
+{
+    "Date": "1\/27\/2022 13:41",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To vicky",
+    "Income\/Expense": "Expense",
+    "Amount": 300
+},
+{
+    "Date": "1\/27\/2022 13:41",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To vishnu",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "1\/27\/2022 13:39",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Zinger box meal",
+    "Income\/Expense": "Expense",
+    "Amount": 279
+},
+{
+    "Date": "1\/27\/2022 13:38",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From vicky",
+    "Income\/Expense": "Income",
+    "Amount": 300
+},
+{
+    "Date": "1\/27\/2022 13:38",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1500
+},
+{
+    "Date": "1\/26\/2022 17:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 115
+},
+{
+    "Date": "1\/26\/2022 17:45",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Vishnu 100 gowdham 25",
+    "Income\/Expense": "Income",
+    "Amount": 125
+},
+{
+    "Date": "1\/26\/2022 16:52",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Paani poori",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "1\/25\/2022 13:35",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Kfc date with myself",
+    "Income\/Expense": "Expense",
+    "Amount": 259
+},
+{
+    "Date": "1\/25\/2022 10:23",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lemon tea",
+    "Income\/Expense": "Expense",
+    "Amount": 18
+},
+{
+    "Date": "1\/25\/2022 9:20",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Train to vnr",
+    "Income\/Expense": "Expense",
+    "Amount": 325
+},
+{
+    "Date": "1\/24\/2022 20:17",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "1\/24\/2022 14:08",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 133
+},
+{
+    "Date": "1\/23\/2022 21:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Pepsi",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "1\/23\/2022 21:41",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 465
+},
+{
+    "Date": "1\/23\/2022 21:29",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Sent to vicky",
+    "Income\/Expense": "Expense",
+    "Amount": 300
+},
+{
+    "Date": "1\/23\/2022 21:29",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 302
+},
+{
+    "Date": "1\/23\/2022 21:29",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From vicky",
+    "Income\/Expense": "Income",
+    "Amount": 310
+},
+{
+    "Date": "1\/23\/2022 21:27",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks with preethi and azar",
+    "Income\/Expense": "Expense",
+    "Amount": 176
+},
+{
+    "Date": "1\/23\/2022 21:27",
+    "Account": "CUB - online payment",
+    "Category": "Social Life",
+    "Note": "Badminton",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "1\/23\/2022 21:27",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 2000
+},
+{
+    "Date": "1\/21\/2022 14:22",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 188
+},
+{
+    "Date": "1\/21\/2022 11:47",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 37
+},
+{
+    "Date": "1\/21\/2022 11:47",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From vicky",
+    "Income\/Expense": "Income",
+    "Amount": 200
+},
+{
+    "Date": "1\/19\/2022 14:27",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch + chocolate for preethi",
+    "Income\/Expense": "Expense",
+    "Amount": 171
+},
+{
+    "Date": "1\/18\/2022 20:54",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 301.15
+},
+{
+    "Date": "1\/18\/2022 17:10",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack with preethi",
+    "Income\/Expense": "Expense",
+    "Amount": 59
+},
+{
+    "Date": "1\/18\/2022 13:51",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 148
+},
+{
+    "Date": "1\/18\/2022 12:59",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To kumara",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "1\/18\/2022 12:59",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "1\/17\/2022 18:31",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Eve snack",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "1\/15\/2022 21:17",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Bus to Bangalore",
+    "Income\/Expense": "Expense",
+    "Amount": 1365
+},
+{
+    "Date": "1\/15\/2022 21:16",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1500
+},
+{
+    "Date": "1\/15\/2022 21:16",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 70
+},
+{
+    "Date": "1\/14\/2022 16:58",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Kumara",
+    "Income\/Expense": "Income",
+    "Amount": 170
+},
+{
+    "Date": "1\/14\/2022 16:56",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Siva + 100 cash",
+    "Income\/Expense": "Income",
+    "Amount": 70
+},
+{
+    "Date": "1\/14\/2022 16:56",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Gundan + prasanna",
+    "Income\/Expense": "Income",
+    "Amount": 340
+},
+{
+    "Date": "1\/14\/2022 16:55",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Dinesh and maddy + 100 cash",
+    "Income\/Expense": "Income",
+    "Amount": 240
+},
+{
+    "Date": "1\/14\/2022 16:54",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From gowdham",
+    "Income\/Expense": "Income",
+    "Amount": 340
+},
+{
+    "Date": "1\/14\/2022 16:54",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch pongal",
+    "Income\/Expense": "Expense",
+    "Amount": 1530
+},
+{
+    "Date": "1\/13\/2022 20:46",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 66
+},
+{
+    "Date": "1\/13\/2022 19:10",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "1\/13\/2022 17:47",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido to pg",
+    "Income\/Expense": "Expense",
+    "Amount": 43
+},
+{
+    "Date": "1\/12\/2022 22:44",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Recharge by gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 479
+},
+{
+    "Date": "1\/12\/2022 13:25",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Pizza",
+    "Income\/Expense": "Expense",
+    "Amount": 301.75
+},
+{
+    "Date": "1\/12\/2022 13:25",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From kumara",
+    "Income\/Expense": "Income",
+    "Amount": 200
+},
+{
+    "Date": "1\/11\/2022 14:07",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with not preethi",
+    "Income\/Expense": "Expense",
+    "Amount": 135.5
+},
+{
+    "Date": "1\/10\/2022 14:04",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Friday snacks with preethi gang",
+    "Income\/Expense": "Expense",
+    "Amount": 106
+},
+{
+    "Date": "1\/8\/2022 13:46",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From gowdham",
+    "Income\/Expense": "Income",
+    "Amount": 260
+},
+{
+    "Date": "1\/8\/2022 13:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 535.3
+},
+{
+    "Date": "1\/8\/2022 13:38",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Note": "Rent",
+    "Income\/Expense": "Expense",
+    "Amount": 4580
+},
+{
+    "Date": "1\/7\/2022 13:51",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Coffee + biscuit",
+    "Income\/Expense": "Expense",
+    "Amount": 15
+},
+{
+    "Date": "1\/6\/2022 21:30",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From barath and shakur",
+    "Income\/Expense": "Income",
+    "Amount": 440
+},
+{
+    "Date": "1\/6\/2022 20:58",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Ketch up",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "1\/6\/2022 20:13",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with roommate",
+    "Income\/Expense": "Expense",
+    "Amount": 877.81
+},
+{
+    "Date": "1\/6\/2022 14:22",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Bingo",
+    "Income\/Expense": "Expense",
+    "Amount": 10
+},
+{
+    "Date": "1\/6\/2022 11:48",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido to pg",
+    "Income\/Expense": "Expense",
+    "Amount": 42
+},
+{
+    "Date": "1\/5\/2022 20:23",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "McDonald's with company",
+    "Income\/Expense": "Expense",
+    "Amount": 211
+},
+{
+    "Date": "1\/5\/2022 14:46",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Lended money returned to vishnu",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "1\/5\/2022 14:42",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Lended money returned to kumara",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "1\/5\/2022 14:42",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Jan 2nd with shakur and barath",
+    "Income\/Expense": "Expense",
+    "Amount": 354
+},
+{
+    "Date": "1\/5\/2022 14:39",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To gobi 1st 1\/4th",
+    "Income\/Expense": "Expense",
+    "Amount": 500
+},
+{
+    "Date": "1\/5\/2022 14:37",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To abijith and to vicky lend money returned",
+    "Income\/Expense": "Expense",
+    "Amount": 500
+},
+{
+    "Date": "1\/5\/2022 14:35",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Refund for bus ticket",
+    "Income\/Expense": "Expense",
+    "Amount": 60
+},
+{
+    "Date": "1\/5\/2022 14:30",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 388
+},
+{
+    "Date": "1\/4\/2022 22:11",
+    "Account": "CUB - online payment",
+    "Category": "Education",
+    "Note": "Arrear and reval fee",
+    "Income\/Expense": "Expense",
+    "Amount": 1400
+},
+{
+    "Date": "1\/4\/2022 22:10",
+    "Account": "CUB - online payment",
+    "Category": "Salary",
+    "Note": "Salary",
+    "Income\/Expense": "Income",
+    "Amount": 8000
+},
+{
+    "Date": "1\/4\/2022 13:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 106
+},
+{
+    "Date": "1\/4\/2022 8:01",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To vicky",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "1\/4\/2022 7:58",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Sent to preethi",
+    "Income\/Expense": "Expense",
+    "Amount": 107
+},
+{
+    "Date": "1\/3\/2022 22:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dairy milk",
+    "Income\/Expense": "Expense",
+    "Amount": 10
+},
+{
+    "Date": "1\/3\/2022 21:54",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From barath",
+    "Income\/Expense": "Income",
+    "Amount": 201
+},
+{
+    "Date": "1\/3\/2022 21:12",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From gpay",
+    "Income\/Expense": "Income",
+    "Amount": 5
+},
+{
+    "Date": "1\/3\/2022 21:11",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From shakur",
+    "Income\/Expense": "Income",
+    "Amount": 140
+},
+{
+    "Date": "1\/3\/2022 14:31",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch unlimited nv",
+    "Income\/Expense": "Expense",
+    "Amount": 300
+},
+{
+    "Date": "1\/3\/2022 14:30",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From abi",
+    "Income\/Expense": "Income",
+    "Amount": 300
+},
+{
+    "Date": "1\/2\/2022 20:33",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Tablet to gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 8
+},
+{
+    "Date": "1\/2\/2022 20:32",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with barath",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "1\/2\/2022 14:16",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Train to vnr",
+    "Income\/Expense": "Expense",
+    "Amount": 725
+},
+{
+    "Date": "1\/1\/2022 21:46",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 85
+},
+{
+    "Date": "1\/1\/2022 21:45",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "12\/30\/2021 14:10",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "To barath",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/30\/2021 13:56",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Pg to office",
+    "Income\/Expense": "Expense",
+    "Amount": 43
+},
+{
+    "Date": "12\/30\/2021 13:36",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From kumara",
+    "Income\/Expense": "Income",
+    "Amount": 30
+},
+{
+    "Date": "12\/30\/2021 12:43",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Horlicks + kolakattai",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/30\/2021 12:38",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Bommasandra to pg",
+    "Income\/Expense": "Expense",
+    "Amount": 199
+},
+{
+    "Date": "12\/30\/2021 12:37",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From Deepak",
+    "Income\/Expense": "Income",
+    "Amount": 250
+},
+{
+    "Date": "12\/30\/2021 11:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Water",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/30\/2021 11:45",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From abi",
+    "Income\/Expense": "Income",
+    "Amount": 20
+},
+{
+    "Date": "12\/30\/2021 11:45",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido + toll",
+    "Income\/Expense": "Expense",
+    "Amount": 286
+},
+{
+    "Date": "12\/30\/2021 11:44",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From Deepak",
+    "Income\/Expense": "Income",
+    "Amount": 250
+},
+{
+    "Date": "12\/28\/2021 13:42",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Coffee and thattai",
+    "Income\/Expense": "Expense",
+    "Amount": 14
+},
+{
+    "Date": "12\/27\/2021 13:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with barath",
+    "Income\/Expense": "Expense",
+    "Amount": 115
+},
+{
+    "Date": "12\/27\/2021 13:44",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From vicky",
+    "Income\/Expense": "Income",
+    "Amount": 80
+},
+{
+    "Date": "12\/27\/2021 12:33",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From ganesan",
+    "Income\/Expense": "Income",
+    "Amount": 40
+},
+{
+    "Date": "12\/27\/2021 12:33",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Coconut water with stu",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "12\/25\/2021 22:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with barath",
+    "Income\/Expense": "Expense",
+    "Amount": 504
+},
+{
+    "Date": "12\/25\/2021 20:46",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Cab",
+    "Income\/Expense": "Expense",
+    "Amount": 306
+},
+{
+    "Date": "12\/25\/2021 19:50",
+    "Account": "CUB - online payment",
+    "Category": "Self-development",
+    "Note": "Books",
+    "Income\/Expense": "Expense",
+    "Amount": 400
+},
+{
+    "Date": "12\/25\/2021 17:01",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Corn",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "12\/25\/2021 15:35",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Water",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "12\/25\/2021 13:32",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "12\/24\/2021 21:49",
+    "Account": "CUB - online payment",
+    "Category": "Social Life",
+    "Note": "Beer",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "12\/24\/2021 14:35",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 262
+},
+{
+    "Date": "12\/23\/2021 16:31",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lemon tea with company",
+    "Income\/Expense": "Expense",
+    "Amount": 15
+},
+{
+    "Date": "12\/23\/2021 13:51",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Puffs and coffee",
+    "Income\/Expense": "Expense",
+    "Amount": 32
+},
+{
+    "Date": "12\/21\/2021 20:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with barath",
+    "Income\/Expense": "Expense",
+    "Amount": 239
+},
+{
+    "Date": "12\/21\/2021 14:02",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Puffs",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/21\/2021 11:43",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Bun",
+    "Income\/Expense": "Expense",
+    "Amount": 18
+},
+{
+    "Date": "12\/20\/2021 19:23",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "12\/20\/2021 19:22",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Taxi",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "12\/20\/2021 16:55",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/20\/2021 15:29",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Water",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/20\/2021 13:35",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with barath",
+    "Income\/Expense": "Expense",
+    "Amount": 85
+},
+{
+    "Date": "12\/20\/2021 9:46",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "12\/19\/2021 15:51",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To siva",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "12\/18\/2021 21:01",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To kumara",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "12\/18\/2021 21:01",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "To abijith",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "12\/18\/2021 21:00",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "To rahul",
+    "Income\/Expense": "Expense",
+    "Amount": 113
+},
+{
+    "Date": "12\/18\/2021 21:00",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "12\/18\/2021 19:52",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Lended money",
+    "Income\/Expense": "Income",
+    "Amount": 400
+},
+{
+    "Date": "12\/18\/2021 19:51",
+    "Account": "CUB - online payment",
+    "Category": "Social Life",
+    "Note": "Spiderman",
+    "Income\/Expense": "Expense",
+    "Amount": 363.72
+},
+{
+    "Date": "12\/18\/2021 14:19",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 160
+},
+{
+    "Date": "12\/17\/2021 18:54",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 70
+},
+{
+    "Date": "12\/17\/2021 14:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 110
+},
+{
+    "Date": "12\/17\/2021 8:35",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Gave to gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "12\/16\/2021 18:44",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Egg",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "12\/16\/2021 18:35",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Panipoori",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/16\/2021 13:38",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "12\/16\/2021 10:42",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 110
+},
+{
+    "Date": "12\/14\/2021 23:54",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "12\/14\/2021 21:21",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 75
+},
+{
+    "Date": "12\/14\/2021 21:03",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Panipoori",
+    "Income\/Expense": "Expense",
+    "Amount": 80
+},
+{
+    "Date": "12\/14\/2021 15:18",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snacks",
+    "Income\/Expense": "Expense",
+    "Amount": 74
+},
+{
+    "Date": "12\/14\/2021 10:33",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 65
+},
+{
+    "Date": "12\/12\/2021 21:47",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/11\/2021 9:22",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "12\/11\/2021 8:20",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "From stu",
+    "Income\/Expense": "Income",
+    "Amount": 240
+},
+{
+    "Date": "12\/10\/2021 21:38",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Shopping",
+    "Income\/Expense": "Expense",
+    "Amount": 241
+},
+{
+    "Date": "12\/10\/2021 20:55",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Momos",
+    "Income\/Expense": "Expense",
+    "Amount": 195
+},
+{
+    "Date": "12\/9\/2021 20:03",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "12\/9\/2021 14:01",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 280
+},
+{
+    "Date": "12\/9\/2021 9:56",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/9\/2021 8:47",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast with stu",
+    "Income\/Expense": "Expense",
+    "Amount": 110
+},
+{
+    "Date": "12\/8\/2021 14:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with stu",
+    "Income\/Expense": "Expense",
+    "Amount": 100
+},
+{
+    "Date": "12\/8\/2021 14:15",
+    "Account": "Cash",
+    "Category": "Food",
+    "Note": "5 star",
+    "Income\/Expense": "Expense",
+    "Amount": 15
+},
+{
+    "Date": "12\/8\/2021 7:17",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk",
+    "Income\/Expense": "Expense",
+    "Amount": 10
+},
+{
+    "Date": "12\/7\/2021 9:54",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/7\/2021 7:59",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Horlicks",
+    "Income\/Expense": "Expense",
+    "Amount": 15
+},
+{
+    "Date": "12\/6\/2021 21:59",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/6\/2021 20:07",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Shoe",
+    "Income\/Expense": "Expense",
+    "Amount": 500
+},
+{
+    "Date": "12\/6\/2021 19:57",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Cap",
+    "Income\/Expense": "Expense",
+    "Amount": 140
+},
+{
+    "Date": "12\/6\/2021 14:08",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with stu",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "12\/5\/2021 19:45",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/5\/2021 18:41",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Full hand and a hoodie",
+    "Income\/Expense": "Expense",
+    "Amount": 1800
+},
+{
+    "Date": "12\/5\/2021 12:23",
+    "Account": "CUB - online payment",
+    "Category": "Household",
+    "Note": "Rent",
+    "Income\/Expense": "Expense",
+    "Amount": 4800
+},
+{
+    "Date": "12\/5\/2021 12:23",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 8000
+},
+{
+    "Date": "12\/4\/2021 21:05",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 324
+},
+{
+    "Date": "12\/4\/2021 20:20",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 65
+},
+{
+    "Date": "12\/4\/2021 13:54",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "For company",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "12\/4\/2021 10:13",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast",
+    "Income\/Expense": "Expense",
+    "Amount": 200
+},
+{
+    "Date": "12\/3\/2021 21:59",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Milk with bharath",
+    "Income\/Expense": "Expense",
+    "Amount": 25
+},
+{
+    "Date": "12\/3\/2021 21:59",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Belt",
+    "Income\/Expense": "Expense",
+    "Amount": 130
+},
+{
+    "Date": "12\/3\/2021 21:28",
+    "Account": "CUB - online payment",
+    "Category": "Apparel",
+    "Note": "Mask",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "12\/3\/2021 21:28",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "12\/3\/2021 21:28",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 1000
+},
+{
+    "Date": "12\/2\/2021 20:07",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Ice cream",
+    "Income\/Expense": "Expense",
+    "Amount": 504
+},
+{
+    "Date": "12\/2\/2021 19:48",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Vadapaav",
+    "Income\/Expense": "Expense",
+    "Amount": 75
+},
+{
+    "Date": "12\/1\/2021 19:57",
+    "Account": "CUB - online payment",
+    "Category": "Beauty",
+    "Note": "Showergel",
+    "Income\/Expense": "Expense",
+    "Amount": 196
+},
+{
+    "Date": "12\/1\/2021 14:00",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 160
+},
+{
+    "Date": "11\/30\/2021 14:24",
+    "Account": "CUB - online payment",
+    "Category": "Gift",
+    "Note": "Bharath birthday",
+    "Income\/Expense": "Expense",
+    "Amount": 115
+},
+{
+    "Date": "11\/30\/2021 14:17",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 128
+},
+{
+    "Date": "11\/30\/2021 10:11",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast",
+    "Income\/Expense": "Expense",
+    "Amount": 70
+},
+{
+    "Date": "11\/29\/2021 20:47",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "11\/29\/2021 20:47",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "11\/29\/2021 20:09",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Panipoori",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "11\/29\/2021 9:29",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "11\/28\/2021 19:59",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 94
+},
+{
+    "Date": "11\/28\/2021 13:10",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Zomato",
+    "Income\/Expense": "Expense",
+    "Amount": 269.4
+},
+{
+    "Date": "11\/27\/2021 23:14",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 120
+},
+{
+    "Date": "11\/27\/2021 22:34",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner with gowdham",
+    "Income\/Expense": "Expense",
+    "Amount": 130
+},
+{
+    "Date": "11\/27\/2021 18:41",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido",
+    "Income\/Expense": "Expense",
+    "Amount": 35
+},
+{
+    "Date": "11\/27\/2021 13:46",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 75
+},
+{
+    "Date": "11\/27\/2021 13:46",
+    "Account": "CUB - online payment",
+    "Category": "Allowance",
+    "Note": "From dad",
+    "Income\/Expense": "Income",
+    "Amount": 2000
+},
+{
+    "Date": "11\/27\/2021 9:33",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast",
+    "Income\/Expense": "Expense",
+    "Amount": 30
+},
+{
+    "Date": "11\/26\/2021 21:56",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Beer",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "11\/26\/2021 20:57",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 102
+},
+{
+    "Date": "11\/26\/2021 20:15",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Panipoori",
+    "Income\/Expense": "Expense",
+    "Amount": 40
+},
+{
+    "Date": "11\/26\/2021 14:14",
+    "Account": "CUB - online payment",
+    "Category": "Petty cash",
+    "Note": "Cashback",
+    "Income\/Expense": "Income",
+    "Amount": 3
+},
+{
+    "Date": "11\/26\/2021 14:14",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 150
+},
+{
+    "Date": "11\/26\/2021 9:22",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Breakfast",
+    "Income\/Expense": "Expense",
+    "Amount": 60
+},
+{
+    "Date": "11\/25\/2021 20:27",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 145
+},
+{
+    "Date": "11\/25\/2021 20:27",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido",
+    "Income\/Expense": "Expense",
+    "Amount": 58
+},
+{
+    "Date": "11\/25\/2021 20:27",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 95
+},
+{
+    "Date": "11\/24\/2021 19:26",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Snack",
+    "Income\/Expense": "Expense",
+    "Amount": 15
+},
+{
+    "Date": "11\/24\/2021 19:23",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 70
+},
+{
+    "Date": "11\/24\/2021 19:06",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Panipoori",
+    "Income\/Expense": "Expense",
+    "Amount": 20
+},
+{
+    "Date": "11\/24\/2021 19:06",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido",
+    "Income\/Expense": "Expense",
+    "Amount": 58
+},
+{
+    "Date": "11\/23\/2021 22:53",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido",
+    "Income\/Expense": "Expense",
+    "Amount": 50
+},
+{
+    "Date": "11\/23\/2021 22:53",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 179
+},
+{
+    "Date": "11\/22\/2021 14:16",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Dinner",
+    "Income\/Expense": "Expense",
+    "Amount": 90
+},
+{
+    "Date": "11\/22\/2021 14:16",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch with company",
+    "Income\/Expense": "Expense",
+    "Amount": 97
+},
+{
+    "Date": "11\/21\/2021 17:07",
+    "Account": "CUB - online payment",
+    "Category": "Transportation",
+    "Note": "Rapido",
+    "Income\/Expense": "Expense",
+    "Amount": 130
+},
+{
+    "Date": "11\/21\/2021 15:50",
+    "Account": "CUB - online payment",
+    "Category": "Food",
+    "Note": "Lunch",
+    "Income\/Expense": "Expense",
+    "Amount": 875
+},
+{
+    "Date": "11\/21\/2021 13:30",
+    "Account": "CUB - online payment",
+    "Category": "Other",
+    "Note": "Got from gobi",
+    "Income\/Expense": "Income",
+    "Amount": 2000
+}]
