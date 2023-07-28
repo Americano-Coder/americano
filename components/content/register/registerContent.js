@@ -167,7 +167,7 @@ export const Content = () => {
             <Spacer y={1} />
             <Button onPress={registerHandler}>Sign Up</Button>
             <Spacer y={1} />
-            <Button color="error" css={{
+            <Button color="warning" css={{
                 as: 'center',
               }} as={Link} href="/">
                 Back to Home
