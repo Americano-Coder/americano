@@ -30,7 +30,7 @@ export const ModalLogin = () => {
 
    try {
       // Send data to the server using axios
-      const response = await axios.post('http://34.101.154.14:8175/hackathon/user/auth/token', body, { headers });
+      const response = await axios.post('https://34.101.154.14:8175/hackathon/user/auth/token', body, { headers });
 
       // Set token on cookies
       Cookies.set('token', response.data.token);
