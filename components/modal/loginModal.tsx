@@ -22,28 +22,38 @@ export const ModalLogin = () => {
    const [pesan, setPesan] = React.useState("");
 
    const loginHandler = async () => {
-   // Initialize formData
-   const body = { "username": username, "loginPassword": loginPassword };
-   const headers = {
-      'Content-Type': 'application/json',
+      const url = 'https://34.101.154.14:8175/hackathon/user/auth/token';
+      const body = { "username": username, "loginPassword": loginPassword };
+      const headers = {
+         'Content-Type': 'application/json',
+      };
+
+      try {
+         // Send data to the server using the Fetch API
+         const response = await fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(body),
+         });
+
+         if (!response.ok) {
+            throw new Error('Network response was not ok');
+         }
+
+         const data = await response.json();
+
+         // Set token on cookies
+         Cookies.set('token', data.accessToken);
+
+         // Redirect to dashboard
+         Router.push('/dashboard');
+      } catch (error) {
+         // Assign error to state "validation"
+         setPesan("Login error, please check your username/password");
+      }
    };
 
-   try {
-      // Send data to the server using axios
-      const response = await axios.post('https://34.101.154.14:8175/hackathon/user/auth/token', body, { headers });
 
-      // Set token on cookies
-      Cookies.set('token', response.data.token);
-
-      // Redirect to dashboard
-      Router.push('/dashboard');
-   } catch (error) {
-      // Assign error to state "validation"
-      setPesan("Login error, please check your username/password");
-   }
-};
-
-   
    const closeHandler = () => {
       setVisible(false);
    };
@@ -65,7 +75,7 @@ export const ModalLogin = () => {
                   <Text b size={18}>
                      Americano
                   </Text>
-               </Text>               
+               </Text>
             </Modal.Header>
             <Text color="error" size={18}>
                {pesan}
