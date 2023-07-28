@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import Cookies from 'js-cookie';
+// TODO: check if router actually needed
 import Router from 'next/router';
 import {
    Modal,
@@ -29,7 +30,7 @@ export const ModalLogin = () => {
       };
 
       // send data to server
-      await axios.post('api', body, { headers })
+      await axios.post('http://34.101.154.14:8175/hackathon/user/auth/token', body, { headers })
       .then((response) => {
 
          // set token on cookies
