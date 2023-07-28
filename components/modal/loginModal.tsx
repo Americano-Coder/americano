@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from "axios";
 import Cookies from 'js-cookie';
-// TODO: check if router actually needed
 import Router from 'next/router';
+
 import {
    Modal,
    Input,
@@ -22,29 +22,27 @@ export const ModalLogin = () => {
    const [pesan, setPesan] = React.useState("");
 
    const loginHandler = async () => {
-      
-      // initialize formData
-      const body = {"username" : username, "loginPassword" : loginPassword};
-      const headers = { 
-         'Content-Type': 'application/json',
-      };
-
-      // send data to server
-      await axios.post('http://34.101.154.14:8175/hackathon/user/auth/token', body, { headers })
-      .then((response) => {
-
-         // set token on cookies
-         Cookies.set('token', response.data.token);
-
-         // redirect to dashboard
-         window.location.reload();
-      })
-      .catch((error) => {
-
-          // assign error to state "validation"
-          setPesan("Login error, please check your username/password");
-      })
+   // Initialize formData
+   const body = { "username": username, "loginPassword": loginPassword };
+   const headers = {
+      'Content-Type': 'application/json',
    };
+
+   try {
+      // Send data to the server using axios
+      const response = await axios.post('http://34.101.154.14:8175/hackathon/user/auth/token', body, { headers });
+
+      // Set token on cookies
+      Cookies.set('token', response.data.token);
+
+      // Redirect to dashboard
+      Router.push('/dashboard');
+   } catch (error) {
+      // Assign error to state "validation"
+      setPesan("Login error, please check your username/password");
+   }
+};
+
    
    const closeHandler = () => {
       setVisible(false);
