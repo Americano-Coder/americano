@@ -26,7 +26,7 @@ The design concept of Expense Tracker focuses on the following principles:
 - Prioritizing accessibility to ensure the app is usable for all users, including those with disabilities.
 
 ## Routes
-- Host: https://americano-coder.vercel.app 
+Host: https://americano-coder.vercel.app 
 - Landing Page/Hero: /
 - Sign Up: /auth/register/
 - User Profile: /user/[user_id]/
