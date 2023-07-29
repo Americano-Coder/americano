@@ -3,16 +3,15 @@ import { Box } from '../../styles/box';
 import { useRouter } from 'next/router'
 import jwt from 'jwt-decode';
 import Cookies from 'js-cookie';
-import { Loading, Table, Spacer, Card } from "@nextui-org/react";
+import { Loading, Table, Spacer, Card, Grid } from "@nextui-org/react";
 import { useState, useEffect } from 'react'
-import axios from 'axios'
 
 
 export const Content = () => {
     var user;
     var same;
     const router = useRouter()
-    console.log(Cookies)
+    console.log(Cookies.get('token'))
     const cookie = Cookies.get('token');
     const { uid } = router.query
 
@@ -34,24 +33,30 @@ export const Content = () => {
             'Authorization': 'Bearer ' + Cookies.get('token'),
         };
 
-        console.log(headers)
+        var requestOptions = {
+            method: 'POST',
+            headers: headers,
+        }
+
+        console.log(requestOptions)
 
         // send data to server
-        axios.post('http://34.101.154.14:8175/hackathon/user/info', headers)
+        fetch('http://34.101.154.14:8175/hackathon/user/info', requestOptions)
             .then((response) => {
-                setData(response.data.data)
-                setLoading(false)
+                console.log(response.json())
+                return response.json()
+            }
+            )
 
-            })
-            .catch((error) => {
-                return error;
-            })
     }, [router.isReady])
 
     if (isLoading) return (
-        <Box css={{ px: "$12", mt: "$8", "@xsMax": { px: "$10" } }}>
+        <Grid.Container justify="center">
+            <Box css={{ px: "$12", mt: "$8", "@xsMax": { px: "$10" } }}>
             <Loading color="primary" size="lg" />
-        </Box>
+            </Box>
+        </Grid.Container>
+        
     )
 
     if (!data || data.httpStatus == "NOT_FOUND") return (

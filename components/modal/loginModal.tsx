@@ -36,7 +36,7 @@ export const ModalLogin = () => {
             Cookies.set('token', response.data.data.accessToken);
 
             // redirect to create account
-            Router.push('/');
+            Router.push('/budget_report/report');
          })
          .catch((error) => {
             setPesan("Log in error, please try again");

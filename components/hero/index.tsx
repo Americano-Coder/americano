@@ -66,7 +66,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  We help you predict future expenses based on historical data, so ypu can plan your budgets more effectively.
+                  We help you predict future expenses based on historical data, so you can plan your budgets more effectively.
                </Text>
 
                <Flex

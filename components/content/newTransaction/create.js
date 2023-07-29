@@ -27,15 +27,20 @@ export const Content = () => {
          'Authorization': 'Bearer ' + Cookies.get('token'),
       };
 
-      console.log(headers)
-      console.log(body)
+      var requestOptions = {
+         method: 'POST',
+         headers: headers,
+         body: body
+      };
+
+      console.log(requestOptions)
+      console.log(Cookies.get('token'))
 
       // send data to server
-      await axios.post('http://34.101.154.14:8175/hackathon/bankAccount/transaction/create', body, headers)
+      fetch('http://34.101.154.14:8175/hackathon/bankAccount/transaction/create', requestOptions)
          .then((response) => {
 
-            // set token on cookies
-            Cookies.set('token', response.data.data.accessToken);
+            console.log(response) 
 
             // redirect to dashboard
             Router.push('/');
