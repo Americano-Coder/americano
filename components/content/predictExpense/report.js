@@ -83,7 +83,7 @@ export const Content = () => {
                   size={'$lg'}
                   span
                >
-                  We help you predict future expenses based on historical data, so ypu can plan your budgets more effectively.
+                  By leveraging historical data, accurately predict future expenses, empowering you to plan your budgets with greater precision and effectiveness.
                </Text>
 
                <Flex

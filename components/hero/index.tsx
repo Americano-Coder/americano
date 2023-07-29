@@ -98,7 +98,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Benefit 1
+                     <CheckIcon /> Smart
                   </Flex>
                   <Flex
                      css={{
@@ -106,7 +106,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Benefit 2
+                     <CheckIcon /> Seamless
                   </Flex>
                   <Flex
                      css={{
@@ -114,7 +114,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Benefit 3
+                     <CheckIcon /> Quick
                   </Flex>
                </Flex>
             </Box>

@@ -94,7 +94,7 @@ export const Content = () => {
                         size={'$lg'}
                         span
                     >
-                        Keep track of your budget.
+                        Consistently keep track of your budget to ensure that you are staying within your financial means and achieving your long-term financial goals.
                     </Text>
 
                     <Flex
