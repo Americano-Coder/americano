@@ -22,35 +22,24 @@ export const ModalLogin = () => {
    const [pesan, setPesan] = React.useState("");
 
    const loginHandler = async () => {
-      const url = 'http://34.101.154.14:8175/hackathon/user/auth/token';
       const body = { "username": username, "loginPassword": loginPassword };
       const headers = {
          'Content-Type': 'application/json',
       };
 
-      try {
-         // Send data to the server using the Fetch API
-         const response = await axios(url, {
-            method: 'POST',
-            headers: headers,
-            body: JSON.stringify(body),
-         });
+      // send data to server
+      await axios.post('http://34.101.154.14:8175/hackathon/user/auth/token', body, { headers: headers })
+         .then((response) => {
 
-         if (!response.ok) {
-            throw new Error('Network response was not ok');
-         }
+            // set token on cookies
+            Cookies.set('token', response.data.token);
 
-         const data = await response.json();
-
-         // Set token on cookies
-         Cookies.set('token', data.accessToken);
-
-         // Redirect to dashboard
-         Router.push('/dashboard');
-      } catch (error) {
-         // Assign error to state "validation"
-         setPesan("Login error, please check your username/password");
-      }
+            // redirect to create account
+            Router.push('/');
+         })
+         .catch((error) => {
+            setPesan("Log in error, please try again");
+         })
    };
 
 
