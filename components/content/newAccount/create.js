@@ -38,7 +38,7 @@ export const Content = () => {
         Cookies.set('token', response.data.data.accessToken);
 
         // redirect to dashboard
-        Router.push('/service/dashboard');
+        Router.push('/');
       })
       .catch((error) => {
         setPesan("Error creating account, please try again");
