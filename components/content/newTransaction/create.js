@@ -24,7 +24,11 @@ export const Content = () => {
       const body = { "senderAccountNo": senderAccountNo, "receiverAccountNo": receiverAccountNo, "amount": amount };
       const headers = {
          'Content-Type': 'application/json',
+         'Authorization': 'Bearer ' + Cookies.get('token'),
       };
+
+      console.log(headers)
+      console.log(body)
 
       // send data to server
       await axios.post('http://34.101.154.14:8175/hackathon/bankAccount/transaction/create', body, headers)
@@ -34,7 +38,7 @@ export const Content = () => {
             Cookies.set('token', response.data.data.accessToken);
 
             // redirect to dashboard
-            Router.push('/service/dashboard');
+            Router.push('/');
          })
          .catch((error) => {
             setPesan("error creating new transaction, please try again");

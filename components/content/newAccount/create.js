@@ -27,6 +27,7 @@ export const Content = () => {
     const body = {"balance" : balance};
     const headers = { 
        'Content-Type': 'application/json',
+       'Authorization': 'Bearer ' + Cookies.get('token'),
     };
 
     // send data to server

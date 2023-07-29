@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var myHeaders = new Headers();
+        myHeaders.append("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VyIERldGFpbHMiLCJ1aWQiOjIsImlzcyI6IkJOQyIsImV4cCI6MTY5MDYxNjY2NywiaWF0IjoxNjkwNjE1NzY3fQ.1aNY2yQi2PDhksjeKHwu8Rlcfb8zaJWce7WWV3qBw-Y");
+
+        var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        redirect: 'follow'
+        };
+
+        fetch("http://34.101.154.14:8175/hackathon/user/info", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
