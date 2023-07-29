@@ -6,7 +6,7 @@ import jwt from 'jwt-decode';
 import Cookies from 'js-cookie';
 
 export const Content = () => {
-    console.log(Cookies);   
+    console.log(Cookies);
    return (
       <>
          <Flex
@@ -46,7 +46,7 @@ export const Content = () => {
                         display: 'inline',
                      }}
                   >
-                     Budget{' '}
+                     Expense{' '}
                   </Text>
                   <Text
                      h1
@@ -55,7 +55,7 @@ export const Content = () => {
                      }}
                      color="primary"
                   >
-                     Report
+                     Predict
                   </Text>
                </Box>
 

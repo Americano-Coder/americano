@@ -10,7 +10,7 @@ export const Auth = () => {
 
     const logoutHandler = () => {
         Cookies.remove("token");
-        Router.reload();
+        Router.push('/');
      };
 
     if(cookie) {

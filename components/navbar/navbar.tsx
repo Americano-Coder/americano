@@ -40,8 +40,8 @@ export const Nav = () => {
                }}
             >
                <Navbar.Link href="/new_transaction/create">New Transaction</Navbar.Link>
-               <Navbar.Link href="/service/create-question">Budget Report</Navbar.Link>
-               <Navbar.Link href="/service/questions">Predictive Expenses</Navbar.Link>
+               <Navbar.Link href="/budget_report/report">Budget Report</Navbar.Link>
+               <Navbar.Link href="/expense_prediction/report">Predictive Expenses</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 

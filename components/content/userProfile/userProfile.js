@@ -11,6 +11,7 @@ export const Content = () => {
     var user;
     var same;
     const router = useRouter()
+    print(Cookies)
     const cookie = Cookies.get('token');
     const { pid } = router.query
 
