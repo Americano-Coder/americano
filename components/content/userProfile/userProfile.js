@@ -42,13 +42,20 @@ export const Content = () => {
 
         // send data to server
         fetch('http://34.101.154.14:8175/hackathon/user/info', requestOptions)
-            .then((response) => {
-                console.log(response.json())
-                return response.json()
-            }
-            )
+        .then((response) => response.json()) 
+        .then((data) => {
+            console.log(data.data);
+            setData(data.data);
+            setLoading(false);
+        })
+        .catch((error) => {
+            console.error('Error fetching data:', error);
+            setLoading(false);
+        });
 
     }, [router.isReady])
+
+    // console.log(data)
 
     if (isLoading) return (
         <Grid.Container justify="center">
@@ -82,33 +89,25 @@ export const Content = () => {
                             <Table.Column>VALUE</Table.Column>
                         </Table.Header>
                         <Table.Body>
-                            <Table.Row key="1">
+                            <Table.Row key="username">
                                 <Table.Cell>Username</Table.Cell>
-                                <Table.Cell> data.username </Table.Cell>
+                                <Table.Cell> {data.username} </Table.Cell>
                             </Table.Row>
-                            <Table.Row key="2">
-                                <Table.Cell>First Name</Table.Cell>
-                                <Table.Cell> data.firstName </Table.Cell>
-                            </Table.Row>
-                            <Table.Row key="3">
-                                <Table.Cell>Last Name</Table.Cell>
-                                <Table.Cell> data.lastName </Table.Cell>
-                            </Table.Row>
-                            <Table.Row key="4">
+                            <Table.Row key="email">
                                 <Table.Cell>Email</Table.Cell>
-                                <Table.Cell> data.email </Table.Cell>
+                                <Table.Cell> {data.email} </Table.Cell>
                             </Table.Row>
-                            <Table.Row key="5">
+                            <Table.Row key="gender">
                                 <Table.Cell>Gender</Table.Cell>
-                                <Table.Cell> data.gender </Table.Cell>
+                                <Table.Cell> {data.gender} </Table.Cell>
                             </Table.Row>
-                            <Table.Row key="6">
+                            <Table.Row key="birthDate">
                                 <Table.Cell>Birth date</Table.Cell>
-                                <Table.Cell> data.bod </Table.Cell>
+                                <Table.Cell> {data.birthDate} </Table.Cell>
                             </Table.Row>
-                            <Table.Row key="7">
+                            <Table.Row key="ktpId">
                                 <Table.Cell>NIK</Table.Cell>
-                                <Table.Cell> data.nik </Table.Cell>
+                                <Table.Cell> {data.ktpId} </Table.Cell>
                             </Table.Row>
                         </Table.Body>
                     </Table>
