@@ -34,7 +34,7 @@ export const Content = () => {
       .then((response) => {
 
         // set token on cookies
-        Cookies.set('token', response.data.token);
+        Cookies.set('token', response.data.data.accessToken);
 
         // redirect to dashboard
         Router.push('/service/dashboard');

@@ -11,7 +11,7 @@ export const Profile = () => {
     
     if (cookie) {
         user = jwt(cookie);
-        url = `/users/${user.id}`;
+        url = `/user/${user.uid}`;
     }
 
     return (

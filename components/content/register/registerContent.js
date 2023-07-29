@@ -40,7 +40,7 @@ export const Content = () => {
       .then((response) => {
 
         // set token on cookies
-        Cookies.set('token', response.data.token);
+        Cookies.set('token', response.data.data.accessToken);
 
         // redirect to create account
         Router.push('/create_account/create');

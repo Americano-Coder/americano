@@ -13,14 +13,14 @@ export const Content = () => {
     const router = useRouter()
     print(Cookies)
     const cookie = Cookies.get('token');
-    const { pid } = router.query
+    const { uid } = router.query
 
     const [data, setData] = useState(null)
     const [isLoading, setLoading] = useState(false)
     
     if (cookie) {
         user = jwt(cookie);
-        same = user.uid == pid;
+        same = user.uid == uid;
     }
 
     useEffect(() => {
@@ -28,7 +28,7 @@ export const Content = () => {
 
         setLoading(true)
 
-        fetch(`api${ pid }`)
+        fetch(`http://34.101.154.14:8175/hackathon/user/info`)
         .then((res) => res.json())
         .then((data) => {
             setData(data)
