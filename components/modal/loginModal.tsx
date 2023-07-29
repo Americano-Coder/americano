@@ -22,7 +22,7 @@ export const ModalLogin = () => {
    const [pesan, setPesan] = React.useState("");
 
    const loginHandler = async () => {
-      const url = 'https://34.101.154.14:8175/hackathon/user/auth/token';
+      const url = 'http://34.101.154.14:8175/hackathon/user/auth/token';
       const body = { "username": username, "loginPassword": loginPassword };
       const headers = {
          'Content-Type': 'application/json',
