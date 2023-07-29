@@ -40,7 +40,7 @@ export const Content = () => {
         Router.push('/service/dashboard');
       })
       .catch((error) => {
-        setPesan("Register error, please try again");
+        setPesan("Error creating account, please try again");
       })
   };
 
