@@ -21,7 +21,7 @@ export const Content = () => {
       };
 
       // send data to server
-      await axios.post('https://34.101.154.14:8175/hackathon/bankAccount/transaction/create', body, headers)
+      await axios.post('http://34.101.154.14:8175/hackathon/bankAccount/transaction/create', body, headers)
          .then((response) => {
 
             // set token on cookies
