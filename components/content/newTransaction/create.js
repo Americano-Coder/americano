@@ -1,4 +1,4 @@
-import { Input, Card, Button, Divider, Text, Link, Spacer } from '@nextui-org/react';
+import { Dropdown, Input, Card, Button, Divider, Text, Link, Spacer } from '@nextui-org/react';
 import React from 'react';
 import { Box } from '../../styles/box';
 import { Flex } from '../../styles/flex';
@@ -12,6 +12,12 @@ export const Content = () => {
    const [receiverAccountNo, setReceiverAccountNo] = React.useState("");
    const [amount, setAmount] = React.useState("");
    const [pesan, setPesan] = React.useState("");
+   const [selected, setSelected] = React.useState(new Set(["Category"]));
+
+   const selectedValue = React.useMemo(
+      () => Array.from(selected).join(", ").replaceAll("_", " "),
+      [selected]
+   );
 
    const newTransactionHandler = async () => {
       // initialize formData
@@ -67,7 +73,7 @@ export const Content = () => {
                   </Text>
                </Text>
                <Input
-                  type="digit"   
+                  type="digit"
                   id="senderAccountNo"
                   name="senderAccountNo"
                   onChange={(e) => setSenderAccountNo(e.target.value)}
@@ -104,6 +110,34 @@ export const Content = () => {
                   size="lg"
                   placeholder="Amount"
                />
+               <Spacer y={1} />
+               <Dropdown>
+                  <Dropdown.Button flat color="primary" css={{ tt: "capitalize" }}>
+                     {selectedValue}
+                  </Dropdown.Button>
+                  <Dropdown.Menu
+                     aria-label="Single selection actions"
+                     color="primary"
+                     disallowEmptySelection
+                     selectionMode="single"
+                     selectedKeys={selected}
+                     onSelectionChange={setSelected}
+                  >
+                     <Dropdown.Item key="apparel">Apparel</Dropdown.Item>
+                     <Dropdown.Item key="beauty">Beauty</Dropdown.Item>
+                     <Dropdown.Item key="allowance">Allowance</Dropdown.Item>
+                     <Dropdown.Item key="education">Education</Dropdown.Item>
+                     <Dropdown.Item key="food">Food</Dropdown.Item>
+                     <Dropdown.Item key="gift">Gift</Dropdown.Item>
+                     <Dropdown.Item key="household">Household</Dropdown.Item>
+                     <Dropdown.Item key="cash">Cash</Dropdown.Item>
+                     <Dropdown.Item key="salary">Salary</Dropdown.Item>
+                     <Dropdown.Item key="transportation">Transportation</Dropdown.Item>
+                     <Dropdown.Item key="social_life">Social Life</Dropdown.Item>
+                     <Dropdown.Item key="other">Other</Dropdown.Item>
+
+                  </Dropdown.Menu>
+               </Dropdown>
                <Spacer y={1} />
                <Button onClick={newTransactionHandler}>Create</Button>
                <Spacer y={1} />
