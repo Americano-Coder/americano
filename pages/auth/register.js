@@ -8,7 +8,6 @@ export default function RegisterPage() {
   return (
     <Layout >
       <Box as="main">
-
         <Content />
       </Box>
     </Layout>

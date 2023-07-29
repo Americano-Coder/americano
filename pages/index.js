@@ -1,5 +1,4 @@
 import React from "react";
-
 import {Nav} from '../components/navbar/navbar';
 import {Layout} from '../components/navbar/layout';
 import {Box} from '../components/styles/box';
@@ -10,7 +9,6 @@ export default function Home() {
     <Layout >
       <Nav />
       <Box as="main">
-
         <Hero />
       </Box>
     </Layout>
