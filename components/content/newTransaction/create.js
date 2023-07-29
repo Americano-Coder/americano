@@ -1,16 +1,18 @@
 import {Input, Card, Button, Divider, Text, Link, Spacer} from '@nextui-org/react';
 import React from 'react';
-import {CheckIcon} from '../../icons/CheckIcon';
 import {Box} from '../../styles/box';
 import {Flex} from '../../styles/flex';
 import Image from 'next/image';
+import Cookies from 'js-cookie';
+import Router from 'next/router';
+import axios from "axios";
 
 export const Content = () => {
    const [senderAccountNo, setSenderAccountNo] = React.useState("");
   const [receiverAccountNo, setReceiverAccountNo] = React.useState("");
   const [amount, setAmount] = React.useState("");
 
-  const registerHandler = async () => {
+  const newTransactionHandler = async () => {
     // initialize formData
     const body = {"senderAccountNo" : senderAccountNo, "receiverAccountNo" : receiverAccountNo, "amount" : amount};
     const headers = { 
@@ -102,7 +104,7 @@ export const Content = () => {
                 placeholder="Amount"
             />
             <Spacer y={1} />
-            <Button >Create</Button>
+            <Button onClick={newTransactionHandler}>Create</Button>
             <Spacer y={1} />
             <Button color="warning" css={{
                 as: 'center',
