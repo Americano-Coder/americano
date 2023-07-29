@@ -30,7 +30,7 @@ export const ModalLogin = () => {
 
       try {
          // Send data to the server using the Fetch API
-         const response = await fetch(url, {
+         const response = await axios(url, {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(body),
