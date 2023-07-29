@@ -32,10 +32,11 @@ export const ModalLogin = () => {
          .then((response) => {
 
             // set token on cookies
-            Cookies.set('token', response.data.token);
+            console.log(response.data.data);
+            Cookies.set('token', response.data.data.accessToken);
 
             // redirect to create account
-            Router.push('/');
+            Router.push('/budget_report/report');
          })
          .catch((error) => {
             setPesan("Log in error, please try again");

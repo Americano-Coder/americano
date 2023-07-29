@@ -4,7 +4,7 @@ import {Box} from '../../components/styles/box';
 import {Content} from '../../components/content/newAccount/create';
 
 
-export default function RegisterPage() {
+export default function CreateAccountPage() {
   return (
     <Layout >
       <Box as="main">

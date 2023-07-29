@@ -1,7 +1,5 @@
 import React from 'react';
 import { Box } from '../../styles/box';
-import { DeleteButton } from './deleteAccount';
-import { EditAccount } from './editAccount';
 import { useRouter } from 'next/router'
 import jwt from 'jwt-decode';
 import Cookies from 'js-cookie';
@@ -10,47 +8,47 @@ import { useState, useEffect } from 'react'
 
 
 export const Content = () => {
-    // var user;
-    // var same;
-    // const router = useRouter()
-    // const cookie = Cookies.get('token');
-    // const { pid } = router.query
+    var user;
+    var same;
+    const router = useRouter()
+    const cookie = Cookies.get('token');
+    const { pid } = router.query
 
-    // const [data, setData] = useState(null)
-    // const [isLoading, setLoading] = useState(false)
+    const [data, setData] = useState(null)
+    const [isLoading, setLoading] = useState(false)
     
-    // if (cookie) {
-    //     user = jwt(cookie);
-    //     same = user.id == pid;
-    // }
+    if (cookie) {
+        user = jwt(cookie);
+        same = user.uid == pid;
+    }
 
-    // useEffect(() => {
-    //     if(!router.isReady) return;
+    useEffect(() => {
+        if(!router.isReady) return;
 
-    //     setLoading(true)
+        setLoading(true)
 
-    //     fetch(`api${ pid }`)
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //         setData(data)
-    //         setLoading(false)
-    //     })
-    //     .catch(rejected => {
-    //         return;
-    //     });   
-    // }, [router.isReady])
+        fetch(`api${ pid }`)
+        .then((res) => res.json())
+        .then((data) => {
+            setData(data)
+            setLoading(false)
+        })
+        .catch(rejected => {
+            return;
+        });   
+    }, [router.isReady])
 
-    // if (isLoading) return (
-    //     <Box css={{px: "$12", mt: "$8", "@xsMax": {px: "$10"}}}>
-    //         <Loading color="primary" size="lg"/>
-    //     </Box>
-    // )
+    if (isLoading) return (
+        <Box css={{px: "$12", mt: "$8", "@xsMax": {px: "$10"}}}>
+            <Loading color="primary" size="lg"/>
+        </Box>
+    )
 
-    // if (!data || data.httpStatus == "NOT_FOUND") return (
-    //     <Box css={{px: "$12", mt: "$8", "@xsMax": {px: "$10"}}}>
-    //         <p>User Not Found</p>
-    //     </Box>
-    // )
+    if (!data || data.httpStatus == "NOT_FOUND") return (
+        <Box css={{px: "$12", mt: "$8", "@xsMax": {px: "$10"}}}>
+            <p>User Not Found</p>
+        </Box>
+    )
 
 
     return (
