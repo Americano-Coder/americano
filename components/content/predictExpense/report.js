@@ -1,12 +1,28 @@
-import {Button, Divider, Text, Link, Spacer} from '@nextui-org/react';
+import { Button, Divider, Text, Link, Spacer } from '@nextui-org/react';
 import React from 'react';
-import {Box} from '../../styles/box';
-import {Flex} from '../../styles/flex';
+import { Box } from '../../styles/box';
+import { Flex } from '../../styles/flex';
 import jwt from 'jwt-decode';
 import Cookies from 'js-cookie';
+import PredictExpense from '../../chart/predictExpense';
 
 export const Content = () => {
-    console.log(Cookies);
+   const incomeOutcomeData = [
+      ['Month', 'Expense'],
+      ['Jan', 400],
+      ['Feb', 460],
+      ['Mar', 1120],
+      ['Apr', 540],
+      ['May', 573],
+      ['Jun', 540],
+      ['Jul', 346],
+      ['Aug', 546],
+      ['Sep', 345],
+      ['Oct', 555],
+      ['Nov', 347],
+      ['Dec', 356],
+   ];
+   console.log(Cookies);
    return (
       <>
          <Flex
@@ -77,11 +93,6 @@ export const Content = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Button href="#">
-                     <Link color="inherit" href="/service/register">
-                        Sign up
-                     </Link>
-                  </Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -126,8 +137,9 @@ export const Content = () => {
             >
             </Box>
          </Flex>
+         <PredictExpense data={incomeOutcomeData} />
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}
+            css={{ position: 'absolute', inset: '0p', left: '0', mt: '$10' }}
          />
       </>
    );

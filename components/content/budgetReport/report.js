@@ -6,7 +6,7 @@ import jwt from 'jwt-decode';
 import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
 import PieChart from '../../chart/categoryAmount';
-import chartPage from '../../chart/incomeOutcome'
+import IncomeOutcome from '../../chart/incomeOutCome';
 
 export const Content = () => {
     const chartData = [
@@ -16,23 +16,23 @@ export const Content = () => {
         ['Transportation', 2],
         ['Social Life', 2],
         ['Cash', 7],
-      ];
-    
+    ];
+
     const incomeOutcomeData = [
         ['Month', 'Income', 'Expense'],
         ['Jan', 1000, 400],
         ['Feb', 1170, 460],
         ['Mar', 660, 1120],
         ['Apr', 1030, 540],
-        ['May', 1030, 540],
-        ['Jun', 1030, 540],
-        ['Jul', 1030, 540],
-        ['Aug', 1030, 540],
-        ['Sep', 1030, 540],
-        ['Oct', 1030, 540],
-        ['Nov', 1030, 540],
-        ['Dec', 1030, 540],
-        ];
+        ['May', 745, 573],
+        ['Jun', 345, 540],
+        ['Jul', 897, 346],
+        ['Aug', 557, 546],
+        ['Sep', 776, 345],
+        ['Oct', 678, 555],
+        ['Nov', 778, 347],
+        ['Dec', 987, 356],
+    ];
 
     return (
         <>
@@ -149,7 +149,7 @@ export const Content = () => {
                 </Box>
             </Flex>
             <PieChart data={chartData} />
-            <chartPage data={incomeOutcomeData} />
+            <IncomeOutcome data={incomeOutcomeData} />
             <Divider
                 css={{ position: 'absolute', inset: '0p', left: '0', mt: '$10' }}
             />
