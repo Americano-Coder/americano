@@ -5,6 +5,7 @@ import {Auth} from './auth';
 import {Profile} from './profile';
 import {useEffect, useState} from 'react';
 import Cookies from 'js-cookie';
+import Image from 'next/image';
 
 export const Nav = () => {
    const [cookie, setCookie] = useState('');
@@ -29,18 +30,18 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <Text b color="inherit" hideIn="xs">
-               Americano
-            </Text>
+            <Link href="/">
+               <Image src="/americano_logo.png" alt="logo" width={200} height={200} />
+            </Link>
             <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
                }}
             >
-               <Navbar.Link href="/">Home</Navbar.Link>
-               <Navbar.Link href="/service/create-question">Fitur 1</Navbar.Link>
-               <Navbar.Link href="/service/questions">Fitur 2</Navbar.Link>
+               <Navbar.Link href="/new_transaction/create">New Transaction</Navbar.Link>
+               <Navbar.Link href="/service/create-question">Budget Report</Navbar.Link>
+               <Navbar.Link href="/service/questions">Predictive Expenses</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 

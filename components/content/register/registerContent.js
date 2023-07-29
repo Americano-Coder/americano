@@ -42,8 +42,8 @@ export const Content = () => {
         // set token on cookies
         Cookies.set('token', response.data.token);
 
-        // redirect to dashboard
-        Router.push('/service/dashboard');
+        // redirect to create account
+        Router.push('/create_account/create');
       })
       .catch((error) => {
         setPesan("Register error, please try again");

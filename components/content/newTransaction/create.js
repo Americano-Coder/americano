@@ -67,7 +67,7 @@ export const Content = () => {
                   </Text>
                </Text>
                <Input
-                  type="digit"
+                  type="digit"   
                   id="senderAccountNo"
                   name="senderAccountNo"
                   onChange={(e) => setSenderAccountNo(e.target.value)}
