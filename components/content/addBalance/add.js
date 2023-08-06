@@ -1,6 +1,5 @@
 import { Box } from '../../styles/box';
-// TODO: check if import is actually needed here
-import Feedback from '../../../public/utils/feedback';
+import { Flex } from '../../styles/flex';
 import React from 'react';
 import {
     Card,
@@ -8,16 +7,15 @@ import {
     Button,
     Text,
     Input,
-    Row,
     Container,
-    Radio,
-    Link
+    Link,
 } from '@nextui-org/react';
 import Cookies from 'js-cookie';
 import Router from 'next/router';
-import axios from "axios";
 
 export const Content = () => {
+    const cookie = Cookies.get('token');
+
     const [balance, setBalance] = React.useState("");
     const [receiverAccountNo, setReceiverAccountNo] = React.useState("");
     const [pesan, setPesan] = React.useState("");
@@ -53,6 +51,123 @@ export const Content = () => {
                 setPesan("error adding balance, please try again");
             })
     };
+
+    if (cookie == undefined) return (
+        <>
+            <Flex
+                css={{
+                    'gap': '$3',
+                    'px': '$6',
+                    'flexDirection': 'column',
+                    'alignContent': 'center',
+                    'justifyContent': 'center',
+                    'alignItems': 'center',
+                    'width': '100%',
+                    '@sm': {
+                        flexDirection: 'row',
+                        mt: '$20',
+                    },
+                }}
+                justify={'center'}
+            >
+                <Spacer x={1} />
+                <Box
+                    css={{
+                        pt: '$13',
+
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '$5',
+                    }}
+                >
+                    <Box
+                        css={{
+                            maxWidth: '600px',
+                        }}
+                    >
+                        <Text
+                            h1
+                            css={{
+                                display: 'inline',
+                            }}
+                        >
+                            Add{' '}
+                        </Text>
+                        <Text
+                            h1
+                            css={{
+                                display: 'inline',
+                            }}
+                            color="primary"
+                        >
+                            Balance
+                        </Text>
+                    </Box>
+
+                    <Text
+                        css={{
+                            color: '$accents8',
+                            maxWidth: '400px',
+                        }}
+                        size={'$lg'}
+                        span
+                    >
+                        Please Log in or sign up to use this feature.
+                    </Text>
+
+                    <Flex
+                        css={{
+                            gap: '$8',
+                            pt: '$4',
+                        }}
+                        wrap={'wrap'}
+                    >
+                    </Flex>
+                    <Flex
+                        wrap={'wrap'}
+                        css={{
+                            'gap': '$8',
+                            'py': '$7',
+                            '@sm': {
+                                py: '$4',
+                            },
+                        }}
+                    >
+                        <Flex
+                            css={{
+                                color: '$accents7',
+                                alignItems: 'center',
+                            }}
+                        >
+                        </Flex>
+                        <Flex
+                            css={{
+                                color: '$accents7',
+                                alignItems: 'center',
+                            }}
+                        >
+                        </Flex>
+                        <Flex
+                            css={{
+                                color: '$accents7',
+                                alignItems: 'center',
+                            }}
+                        >
+                        </Flex>
+                    </Flex>
+                </Box>
+                <Box
+                    css={{
+                        '& img': {
+                            width: '775px',
+                            objectFit: 'contain',
+                        },
+                    }}
+                >
+                </Box>
+            </Flex>
+        </>
+    )
 
     return (
         <Box css={{ px: "$12", mt: "$8", "@xsMax": { px: "$10" } }}>
